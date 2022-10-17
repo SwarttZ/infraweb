@@ -1,0 +1,13 @@
+.server-online {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.server-offline {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}

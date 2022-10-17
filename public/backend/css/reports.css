@@ -1,0 +1,48 @@
+.grind-actions-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0px;
+    text-align: center;
+}
+
+.grind-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .grind-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+    #button-process {
+        margin-top: 32px;
+        width: 100%;
+    }
+}
+
+.custom-form {
+    width: 100%;
+}
+
+.custom-reports-form {
+    width: 214%;
+}
+
+#button-process {
+    margin-top: 32px;
+    width: 139px;
+}
+
+.form-select {
+    width: 214%;
+}
+
+#btn-custom {
+    height: 86%;
+    margin-top: 0px;
+    width: 41px;
+}

@@ -1,0 +1,67 @@
+.form-check {
+    padding-left: 2.25rem;
+    margin-left: 10px;
+}
+
+.grid-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+}
+
+.row {
+    width: 100%;
+    margin-left: -2px;
+}
+
+.container-computer-table {
+    width: 100%;
+    text-align: center;
+}
+
+#loader {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75) url("/backend/img/loading.gif") no-repeat center center;
+    background-size: 30px;
+    z-index: 99999;
+}
+
+#loader {
+    text-align: center;
+}
+
+.nav-pagination {
+    margin-left: 40%;
+    padding: 0;
+    list-style-type: none;
+}
+
+.d-block a {
+    margin-left: -9px;
+}
+
+.btn-custom-cancel {
+    width: 100%;
+}
+
+.container-datatable {
+    width: 80%;
+    float: right;
+}
+
+.alert-warning {
+    text-align: center;
+    color: black;
+}
+
+.container-buttons-erros-backup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0fr;
+    grid-gap: 30px;
+}
